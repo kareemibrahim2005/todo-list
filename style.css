@@ -1,0 +1,117 @@
+*{
+    padding: o;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body{
+    height: 100%;
+    background-color: blue;
+}
+
+
+
+.container{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    min-height: 100px;
+    border-radius: 10px;
+}
+
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#newtask input{
+    width: 75%;
+    height: 45px;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    border-radius: 5px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: chartreuse;
+    transition: 800ms;
+}
+ 
+#newtask button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+#newtask button:focus{
+    outline: none;
+    background-color: rgb(12, 231, 12);
+    color: #fff;
+    transition: 800ms;
+}
+#task{
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+
+    
+}
+.tasks{
+    background-color: #c5e1e6;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid #939697;
+    cursor: pointer;
+    position: relative;
+}
+
+.tasks span{
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.tasks button{
+    background: rgb(250, 6, 6);
+    color: #fff;
+    height: 100%;
+    width: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+
+}
+.delete{
+    font-size: 20px;
+}
+
